@@ -39,6 +39,7 @@ export default function App() {
       return currentList.filter(toDo=>toDo.id!=id)
     })
   }
+  
   return <>
     <form className="xyz-form" data-cy="xyz" onSubmit={submit}>
       <div className="form-row" data-cy="row">
